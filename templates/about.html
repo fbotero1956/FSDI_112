@@ -1,7 +1,9 @@
 {% extends 'base.html' %} 
+{% load static %}
 
 {% block content %} 
     <h1>About me:</h1>
     <p>I am Felipe Botero.</p>
+    <img src="{% static 'img/FB.jpg' %}" alt="My image" style="width: 200px; height:200px;">
     <p>I like coding and am enjoying the FSDI program.</p>
 {% endblock content %} 
